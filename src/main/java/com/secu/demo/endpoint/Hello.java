@@ -17,7 +17,7 @@ public class Hello {
             new ResponseEntity<>("KO", HttpStatus.INTERNAL_SERVER_ERROR);
 
     @GetMapping("/hello")
-    public String ping() {
+    public String hello() {
         return "world";
     }
 }
