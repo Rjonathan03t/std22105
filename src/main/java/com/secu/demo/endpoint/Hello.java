@@ -1,4 +1,4 @@
-package com.secu.demo.endpoint.rest.controller.health;
+package com.secu.demo.endpoint;
 
 import com.secu.demo.PojaGenerated;
 import lombok.AllArgsConstructor;
@@ -16,8 +16,8 @@ public class Hello {
     public static final ResponseEntity<String> KO =
             new ResponseEntity<>("KO", HttpStatus.INTERNAL_SERVER_ERROR);
 
-    @GetMapping("/ping")
+    @GetMapping("/hello")
     public String ping() {
-        return "hello world";
+        return "world";
     }
 }
