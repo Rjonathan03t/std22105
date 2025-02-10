@@ -1,4 +1,4 @@
-package com.example.demo.endpoint.rest.controller.health;
+
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
