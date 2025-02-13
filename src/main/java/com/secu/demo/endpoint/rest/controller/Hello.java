@@ -1,4 +1,4 @@
-
+package com.secu.demo.endpoint.rest.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
